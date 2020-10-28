@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -13,6 +14,13 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <Image
+          quality={5}
+          src="/images/damn-you.gif"
+          width="400"
+          height="303"
+        ></Image>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -61,5 +69,5 @@ export default function Home() {
         </a>
       </footer>
     </div>
-  )
+  );
 }
