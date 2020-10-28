@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
 
         <Image
-          quality={5}
+          // quality={5}
           src="/images/damn-you.gif"
           width="400"
           height="303"
